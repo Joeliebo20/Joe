@@ -1,10 +1,10 @@
-all: predictors
+all: cache-sim
 
-predictors: predictors.o
-	g++ predictors.o -o predictors
+cache-sim: cache-sim.o
+	g++ cache-sim.o -o cache-sim
 
-predictors.o: predictors.cpp
-	g++ -g -c predictors.cpp
+cahce-sim.o: cache-sim.cpp
+	g++ -g -c cache-sim.cpp
 
 clean:
-	rm -f *.o predictors
+	rm -f *.o cache-sim

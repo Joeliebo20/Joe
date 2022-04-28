@@ -1,3 +1,0 @@
-Joseph Lieberman
-jliebe12
-B00773226
